@@ -7,7 +7,7 @@ Este projeto é um sistema desenvolvido em Python com Streamlit para consulta in
 ### 🔍 Busca de produto
 ![Busca de produto](BUSCA.png)
 ### 🤖 Correção inteligente
-![Correção inteigente](busca inteligente.png)
+![Correção inteigente](última atualização.png)
 ### ⚠️ Alerta de base
 ![Alerta de base](última atualização.png)
 ### 📧 Solicitação de cotação
