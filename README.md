@@ -75,3 +75,7 @@ Permite gerar automaticamente uma solicitação de cotação via Outlook:
 Desenvolvido por **Larissa da Silva Barros**  
 Área de Engenharia / Orçamentos
 
+
+## 🔑 Keywords
+Streamlit, Python, Material Search, Product Search, Chatbot, Pandas
+
