@@ -1,8 +1,95 @@
-# 🏢 Sistema de Consulta Inteligente de Materiais
+# 🚀 SmartMaterials AI
+
+Smart material search system with intelligent parsing, technical filtering and quotation automation.
+
+---
+
+## 🚀 Features
+
+✅ Intelligent product search  
+✅ Automatic typo correction  
+✅ Interpretation of complex inputs (e.g., `dn1sch40`)  
+✅ Filtering by:
+- DN (diameter)
+- SCH (thickness)
+- Material (304 / 316)
+
+✅ Direct product code search  
+✅ Automatic database update verification  
+✅ Visual alert when data is outdated  
+✅ Chat-style interface  
+✅ Automatic email generation for quotation requests  
+
+---
+
+## 🧠 System Intelligence
+
+The system interprets user input even with errors, for example:
+
+| User Input | Interpretation |
+|------------|---------------|
+| `tuo dn1sch40` | TUBE DN 1 SCH 40 |
+| `tudo dn 1 sxh 40` | TUBE DN 1 SCH 40 |
+| `dn1sch40` | DN 1 SCH 40 |
+
+---
+
+## 📦 Data Processing
+
+- CSV data loading  
+- Text normalization  
+- Regex pattern handling (DN/SCH)  
+- Data inconsistency handling  
+- Intelligent comparison to improve accuracy  
+
+---
+
+## 📊 Interface
+
+Built using Streamlit:
+
+- Custom visual layout  
+- Interactive chat interface  
+- Formatted responses  
+- Visual status indicators:
+  - 🔴 Outdated database  
+  - 🟢 Up-to-date  
+
+---
+
+## 📧 Email Integration
+
+Automatically generates quotation request emails:
+
+- Predefined recipient  
+- Configurable CC list  
+- Auto-filled subject and body  
+
+---
+
+## 🛠 Technologies
+
+- Python  
+- Streamlit  
+- Pandas  
+- Regex (`re`)  
+- Difflib  
+
+---
+
+## 💡 Future Improvements
+
+- 📄 Export quotations (PDF/Excel)  
+- 🏆 Highlight best price automatically  
+- 📈 Database update dashboard  
+
+---
+
+## 🇧🇷 Descrição
 
 Este projeto é um sistema desenvolvido em Python com Streamlit para consulta inteligente de produtos, focado em uso corporativo para áreas de orçamento e compras.
 
-## 🚀 Funcionalidades
+### 🚀 Funcionalidades
 
 ✅ Busca inteligente de produtos  
 ✅ Correção automática de erros de digitação  
@@ -15,67 +102,18 @@ Este projeto é um sistema desenvolvido em Python com Streamlit para consulta in
 ✅ Busca direta por código de produto  
 ✅ Verificação automática de atualização da base de dados  
 ✅ Alerta visual quando a base está desatualizada  
-✅ Interface tipo chat
+✅ Interface tipo chat  
 ✅ Geração automática de e-mail para solicitação de cotação  
 
-## 🧠 Inteligência do sistema
+---
 
-O sistema interpreta entradas do usuário mesmo com erros, por exemplo:
+## 👩‍💻 Author
 
-| Entrada do usuário | Interpretação |
-|------------------|--------------|
-| `tuo dn1sch40` | TUBO DN 1 SCH 40 |
-| `tudo dn 1 sxh 40` | TUBO DN 1 SCH 40 |
-| `dn1sch40` | DN 1 SCH 40 |
+Developed by **Larissa da Silva Barros**  
+Engineering / Budgeting  
 
-## 📦 Tratamento de dados
-
-- Leitura de dados via CSV
-- Normalização de texto
-- Regex para tratamento de padrões (DN/SCH)
-- Remoção de inconsistências na base
-- Comparação inteligente para evitar erros
-
-## 📊 Interface
-
-Desenvolvida com Streamlit:
-
-- Layout com identidade visual personalizada
-- Chat interativo
-- Respostas formatadas
-- Destaque visual de status da base:
-  - 🔴 Desatualizada
-  - 🟢 Dentro do prazo
-
-## 📧 Integração com e-mail
-
-Permite gerar automaticamente uma solicitação de cotação via Outlook:
-
-- Destinatário automático
-- CC configurável
-- Assunto e corpo preenchidos
-- Integração com Outlook
-
-## 🛠 Tecnologias utilizadas
-
-- Python
-- Streamlit
-- Pandas
-- Regex (re)
-- Difflib (correção de palavras)
-
-## 💡 Possíveis melhorias futuras
-
-- 📄 Exportação de orçamento (PDF/Excel)
-- 🏆 Destaque automático do melhor preço
-- 📈 Dashboard de atualização da base
-
-## 👩‍💻 Autoria
-
-Desenvolvido por **Larissa da Silva Barros**  
-Área de Engenharia / Orçamentos
-
+---
 
 ## 🔑 Keywords
-Streamlit, Python, Material Search, Product Search, Chatbot, Pandas
 
+Streamlit, Python, Material Search, Product Search, Chatbot, Pandas
