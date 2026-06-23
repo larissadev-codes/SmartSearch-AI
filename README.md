@@ -8,9 +8,9 @@ Este projeto é um sistema desenvolvido em Python com Streamlit para consulta in
 ✅ Correção automática de erros de digitação  
 ✅ Interpretação de entradas complexas (ex: `dn1sch40`)  
 ✅ Filtros por:
-    - DN (diâmetro)
-    - SCH (espessura)
-    - Material (304 / 316)
+- DN (diâmetro)
+- SCH (espessura)
+- Material (304 / 316)
 
 ✅ Busca direta por código de produto  
 ✅ Verificação automática de atualização da base de dados  
