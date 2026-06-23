@@ -4,14 +4,14 @@ Este projeto é um sistema desenvolvido em Python com Streamlit para consulta in
 
 ## 📸 Demonstração
 
-### 🔍 Busca de produt
-
+### 🔍 Busca de produto
+![Busca de produto](BUSCA.png)
 ### 🤖 Correção inteligente
-
+![Correção inteigente](busca inteligente.png)
 ### ⚠️ Alerta de base
-
+![Alerta de base](última atualização.png)
 ### 📧 Solicitação de cotação
-
+![Solicitação de cotação](Produto sem cadastro.png)
 ## 🚀 Funcionalidades
 
 ✅ Busca inteligente de produtos  
