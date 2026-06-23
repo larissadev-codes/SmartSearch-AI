@@ -2,16 +2,6 @@
 
 Este projeto é um sistema desenvolvido em Python com Streamlit para consulta inteligente de produtos, focado em uso corporativo para áreas de orçamento e compras.
 
-## 📸 Demonstração
-
-### 🔍 Busca de produto
-![Busca de produto](BUSCA.png)
-### 🤖 Correção inteligente
-![Correção inteigente](última atualização.png)
-### ⚠️ Alerta de base
-![Alerta de base](última atualização.png)
-### 📧 Solicitação de cotação
-![Solicitação de cotação](Produto sem cadastro.png)
 ## 🚀 Funcionalidades
 
 ✅ Busca inteligente de produtos  
